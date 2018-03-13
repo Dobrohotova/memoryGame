@@ -1,0 +1,39 @@
+table {
+	margin: 0 auto;
+}
+
+td {
+  border: 3px solid black;
+  height: 100px;
+  width: 100px;
+  color: #7d4040;
+  text-align: center;
+  font-size: 36px;
+  cursor: pointer;
+}
+
+button {
+	width: 550px;
+	height: 50px;
+	display: block;
+	margin: 0 auto !important;
+	border: none;
+	border-radius: 10px;
+	background-color: #7d4040;
+	text-transform: uppercase;
+	font-size: 24px;
+}
+
+button:hover {
+	background-color: silver;
+	color: #7d4040;
+	cursor: pointer;
+}
+
+.hidden {
+  color: white;
+}
+
+.show {
+  color: #7d4040;
+}
